@@ -11,7 +11,7 @@
                 "area": "Christiania og en del af Amager",
                 "extent": "Prinsessegade \u2013 Refshalevej \u2013 Forlandet \u2013 Kl\u00f8vermarksvej \u2013 Raffinaderivej \u2013 Prags Boulevard \u2013 Strandlodsvej \u2013 Lergravsvej \u2013 \u00d8strigsgade \u2013 \u00d8resundvej \u2013 Amagerbrogade \u2013 Christmas M\u00f8llers Plads - Torvegade \u2013 Prinsessegade",
                 "validation": "Nyhedsmedie",
-                "population": 0
+                "population": 20400
             },
             "geometry": {
                 "type": "Polygon",
