@@ -1,0 +1,26 @@
+name: Cron Check
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '35 9,17 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - run: python build/check.py
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automatic build
+          file_pattern: 'current.txt'
+
