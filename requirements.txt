@@ -2,3 +2,5 @@ pyproj
 numpy
 scipy
 shapely
+requests
+beautifulsoup4

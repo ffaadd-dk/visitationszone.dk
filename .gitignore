@@ -1,2 +1,3 @@
 *.pyc
+.*
 build/github_deploy_key
