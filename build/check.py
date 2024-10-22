@@ -26,8 +26,8 @@ for card in cards:
     if "ingen aktuelle visitationszoner" in description.lower():
         continue
 
-    f.write("---\n")
+    f.write("###\n")
     f.write(area + "\n")
     f.write(description + "\n")
-    f.write("---\n")
+    f.write("###\n")
     
